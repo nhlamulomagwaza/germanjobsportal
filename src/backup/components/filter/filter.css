@@ -1,0 +1,128 @@
+.main{
+    padding:1rem 12rem;
+}
+
+.filtercanvas{
+    background-color: rgb(33, 33, 33);
+     padding:2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4rem;
+
+}
+
+.filtercanvas-light{
+    background-color: rgb(232, 232, 232);
+    padding:2rem;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -4rem;
+
+}
+
+.search{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.search-light{
+    color:black;
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+input{
+    background-color: transparent;
+    width:32ch;
+    border:none;
+    padding:1rem;
+    color:white;
+    cursor:text;
+}
+
+.search-light input{
+    color:black;
+    background-color: transparent;
+    width:32ch;
+    border:none;
+    padding:1rem;
+ 
+    cursor:text;
+}
+
+
+.location{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+select{
+    background-color: transparent;
+    color:white;
+    width:32ch;
+    padding:1rem;
+    border:none;
+    cursor:pointer;
+}
+
+option{
+    color:black;
+    cursor:pointer;
+}
+
+.remote{
+    display:flex;
+   justify-content: center;
+    align-items: center;
+    gap:0.6rem;
+}
+.remote input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+
+.savedjobs{
+    padding:0.5rem 1.3rem;
+    background-color: rgb(5, 204, 204);
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.savedjobs:hover{
+    background-color: rgb(10, 235, 235);
+    transition: .3s ease;
+}
+
+.icon-light{
+    color:black;
+}
+
+.savedjobs-light{
+    padding:0.5rem 1.3rem;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+
+
+}
+
+.savedjobs-light:hover{
+    background-color: rgb(133, 133, 133);
+    transition: .3s ease;
+}
+
+.city-light{
+    color:black;
+}
+.city-light select{
+    color:black;
+}

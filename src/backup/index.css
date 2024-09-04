@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Roboto", monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+  width:100%;
+  overflow-x: hidden;
+}
+
+body{
+  color:white;
+  background-color: rgb(37, 37, 37);
+  transition: .3s ease-in-out;
+
+}
+
+.body-light{
+  color:black;
+  background-color: rgb(210, 210, 210);
+}
+
+.icon{
+  color:rgb(5, 204, 204);
+}

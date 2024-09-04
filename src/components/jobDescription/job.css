@@ -1,0 +1,156 @@
+.description-title{
+    font-size: 1.5rem;
+}
+
+.flag{
+    width:200px;
+    height:auto;
+    display:block;
+}
+
+
+.descriptioncontainer{
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+   width:100%;
+    margin:0 auto;
+}
+
+.descriptiontitle{
+    display:flex;
+    align-items: center;
+  
+    gap:1rem;
+}
+
+.cta{
+    width:18ch;
+}
+.desc{
+    background-color: rgb(33, 33, 33);
+    padding:2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4rem;
+    width:100%;
+    transition: .3s ease-in-out;
+}
+
+.desc-light{
+    background-color: white;
+    padding:2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4rem;
+    width:100%;
+
+}
+.jobdt{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+   
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.descriptionstuff{
+    padding:2rem;
+    margin-top: 2rem;
+    background-color: rgb(33, 33, 33);
+    width:100%;
+    transition: .3s ease-in-out;
+}
+
+.descriptionstuff-light{
+    padding:2rem;
+    margin-top: 2rem;
+    background-color: white;
+    color:black;
+    width:100%;
+}
+
+.stuff-title{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+.date{
+   
+    margin-bottom: 1rem;
+    color:rgb(122, 122, 122);
+}
+
+
+.stuffcontainer{
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+   width:100%;
+   
+}
+
+.stuffcol2{
+    padding:2rem;
+}
+.apply{
+    width:17.5ch;
+    align-self: flex-end;
+}
+
+
+.back{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width:700px){
+
+    .flag{
+        width:150px;
+        height:auto;
+        display:block;
+    }
+
+    .description-title{
+        font-size: 1rem;
+    }
+    .cta{
+        width:13ch;
+    }
+    
+}
+
+@media(max-width:460px){
+
+    .cta{
+        display:none;
+    }
+}
+@media(max-width:400px){
+
+    .flag{
+        width:80px;
+        height:auto;
+        display:block;
+    }
+
+    .description-title{
+        font-size: 1rem;
+    }
+    .cta{
+        width:13ch;
+    }
+    
+}
+
